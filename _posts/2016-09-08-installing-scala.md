@@ -27,8 +27,8 @@ Download the tar in Option 1 from the image below.
 
 #### 4. Start REPL
 
+Since Scala is an interpretive language (it is also compile-able), you can try it out using a REPL (Read-Eval-Print-Loop). This is an easy way to quickly try out a function or a logic in your mind. Just type scala on the command-line - 
+
 - scala
 
-Since Scala is an interpretive language (it is also compile-able), you can try it out using a REPL (Read-Eval-Print-Loop). This is an easy way to quickly try out a function or a logic in your mind.
-
-Let me know if this works for you.
+Let me know if this works for you!
