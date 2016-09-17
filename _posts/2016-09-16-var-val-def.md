@@ -8,11 +8,16 @@ categories:
 thumbnail_path: blog/personal/scala-logo.png
 ---
 
+What you'll learn in this blog post - 
+
+1. How to declare variables in Scala
+2. How to define functions in Scala
+
 **Val**
 
-A *val* is a way of declaring immutables in Scala. Hence, when you declare a *val*, you've to initialize it.
+A *val* is a way of declaring immutables in Scala. By *immutable*, I mean that the value of a variable cannot be modified or changed after the declaration. As a result of this constraint, you've to initialize a *val* when you declare it.
 
-{% gist kaushik88/7ea61e62fb4404366af59fb5a1c8967f %}
+{% gist kaushik88/7ea61e62fb4404366af59fb5a1c8967f val.scala %}
 
 A few notes on *val* - 
 
@@ -22,13 +27,13 @@ A few notes on *val* -
 
 3. Due to the functional nature of Scala and also due to Pattern Matching, I believe *val*s are more commonly used than *var*s.
 
-4. A val is similar to the **final** keyword in Java - so although you cannot change the value of a *val*, you should be able to change the state of a val object.
+4. Although you cannot change the value of a *val*, you should be able to change the state of a val object.
 
 **Var**
 
 A *var* is a way of declaring mutables (or variables) in Scala.
 
-{% gist kaushik88/ec286ee0966acda650d08167e681411a %}
+{% gist kaushik88/7ea61e62fb4404366af59fb5a1c8967f var.scala %}
 
 A few notes on vars - 
 
@@ -36,10 +41,14 @@ A few notes on vars -
 
 Consider the following example, to note this difference
 
-{% gist kaushik88/6b3179655abc4cfad384a24ba73eaa66 %}
+{% gist kaushik88/7ea61e62fb4404366af59fb5a1c8967f var-val.scala %}
 
 **def**
 
 In Scala, *def* is a way to define a function. More about functions in this gist - 
 
-{% gist kaushik88/296e85f7c8b6eadd742bac47577535f2 %}
+{% gist kaushik88/7ea61e62fb4404366af59fb5a1c8967f def.scala %}
+
+One of the useful features of functions in Scala is that the arguments can take default values. Here's how you can define them - 
+
+{% gist kaushik88/7ea61e62fb4404366af59fb5a1c8967f default-arguments.scala %}
