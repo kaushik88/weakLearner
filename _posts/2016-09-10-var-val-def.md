@@ -10,8 +10,8 @@ thumbnail_path: blog/personal/scala-logo.png
 
 What you'll learn in this blog post - 
 
-1. How to declare variables in Scala
-2. How to define functions in Scala
+1. How to declare immutables and variables in Scala.
+2. How to define functions in Scala.
 
 **Val**
 

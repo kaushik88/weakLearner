@@ -12,6 +12,7 @@ What you'll learn in this blog post -
 
 1. Scala's response to Java's switch statement.
 2. Pattern Matching for Options.
+3. Exception Handling in Scala.
 
 **Switch Statement**
 
@@ -53,3 +54,9 @@ In Scala, you can also have a variable following a case keyword. This is used in
 In Scala, pattern matching is also used to get the value of an Option type. This is done through the code below - 
 
 {% gist kaushik88/b8c2a3d2d1ced24e5e9a246e8598ecf3 pattern-match-options.scala %}
+
+**Exception Handling** 
+
+Exception Handling in Scala is a lot similar to Java. It also follows a similar syntax as the Pattern Matching.
+
+{% gist kaushik88/b8c2a3d2d1ced24e5e9a246e8598ecf3 pattern-match-try-catch.scala %}

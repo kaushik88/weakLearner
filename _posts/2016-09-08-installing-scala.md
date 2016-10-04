@@ -31,4 +31,12 @@ Since Scala is an interpretive language (it is also compile-able), you can try i
 
 - scala
 
-Let me know if this works for you!
+#### 5. Resources
+
+I'd recommend a couple of resources to help you get started - 
+
+* A Coursera Course on Functional Programming Principles in Scala by Martin Odersky.
+
+* Scala for the Impatient book by Cay S. Horstmann.
+
+Happy Learning!

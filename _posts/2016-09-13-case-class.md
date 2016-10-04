@@ -8,6 +8,10 @@ categories:
 thumbnail_path: blog/personal/scala-logo.png
 ---
 
+In this blog post, you'll learn about - 
+
+1. What benefits do case classes provide and when you should use them.
+
 Case classes can be seen as plain and immutable data-holding objects that should exclusively depend on their constructor arguments.
 
 {% gist kaushik88/3db738c1b63583a999bf6bad02538cde case-class.scala %}
