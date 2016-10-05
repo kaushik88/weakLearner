@@ -19,9 +19,8 @@ Consider the following example,
 Definitely, there is a pattern between sumInts and sumCubes. In fact, we're used to writing this as a mathematical expression - 
 
 $$
-Sum $\sum_{n=1}^{\infty} 2^{-n}
 \begin{align*}
-  $\sum_{x=a}^{b} f(x)
+  \sum_{x=a}^{b} f(x)
 \end{align*}
 $$
 
