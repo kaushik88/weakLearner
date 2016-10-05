@@ -12,6 +12,8 @@ In this blog post, you'll learn about -
 
 > Coding Style for better readability.
 
+[This](http://docs.scala-lang.org/style/) post gives a good overview on Scala's style guide. Here are some additional guides that I've used for better readability - 
+
 **1. Use Pattern Matching for Collection functions like map, filter, flatMap** - 
 
 val numbers : List[Int] = List(1,2,3)
@@ -29,3 +31,11 @@ In scala, return statements are optional and hence should be avoided when possib
 **4. Don't use _ **
 
 Although _ is a cool way to write quick code, avoid using them and substitute them with more meaningful variable names.
+
+**5. Avoid chaining more than 5 functions at a time ** -
+
+One way to build monads is through chaining. Consider the example - 
+
+val derivedList = list.map(x => ???).filter(x => ???).reduce(reduceFunc).map(x => ???).sum.map(x => ???)
+
+After a lot of chaining, this gets hard to read and follow. Use intermediate variables.
