@@ -17,21 +17,11 @@ While *map*, *filter* and *flatMap* are powerful paradigms, sometimes they could
 
 Consider the following example - 
 
-val nums : List[Int] 		= List(1,2,3,4,5)
-val pairsWithEvenSums : List[(Int, Int)] = nums flatMap (num1 => nums map (num2 => (num1, num2))) filter (pair => (pair._1 + pair._2) %2 == 0)
-
-// List((1,1), (1,3), (1,5), (2,2), (2,4), (3,1), (3,3), (3,5), (4,2), (4,4), (5,1), (5,3), (5,5))
+{% gist kaushik88/89c1724b36d8321a317234539a60d542 nested-map.scala %}
 
 As can be seen, this is hard to understand. Hence, Scala came up with for-expressions.
 
-for ( seq ) yield expr
-
-for {
-	num1 <- nums				// Generator
-	num2 <- nums				// Generator
-	sum = num1 + num2			// Definition
-	if sum % 2 == 0				// Filter
-} yield (num1, num2)
+{% gist kaushik88/89c1724b36d8321a317234539a60d542 for-expressions.scala %}
 
 As you can see above, this is much easier to read!!
 

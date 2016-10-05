@@ -15,9 +15,7 @@ In this blog post, you'll learn to -
 
 Consider the following recursive function to compute the GCD.
 
-def gcd(a : Int, b : Int) : Int = {
-	if (b == 0) a else gcd (b, a % b)
-}
+{% gist kaushik88/1adcaebd2e15066d0bb1c34d59b3c579 gcd.scala %}
 
 Here's how the stack trace of this would look like - 
 
@@ -29,9 +27,7 @@ gcd(14, 21)
 
 Let us look at another type of recursion - factorial.
 
-def factorial(num :Int) : Int = {
-	if (n == 0) 1 else num * factorial(num - 1)
-}
+{% gist kaushik88/1adcaebd2e15066d0bb1c34d59b3c579 factorial.scala %}
 
 factorial(4)
 	-> 4 * factorial(3)

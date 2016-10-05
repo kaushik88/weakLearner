@@ -17,13 +17,13 @@ In this blog post, you'll learn about -
 
 As in Java, classes and traits can have type parameters. Consider the example below,
 
-class Pair[T, S](val first : T, val second : S)
+{% gist kaushik88/879ed8185f81d085364450e2c93132e3 pair.scala %}
 
 The above line defines a class that has 2 parameters - first (of type T) and second (of type S). This is very useful as when you want to build a Pair object, now the 2 parameters could be of any type.
 
 **Generic Functions**
 
-def getMiddleElement[T](a : Array[T]) : T = a(a.length / 2)
+{% gist kaushik88/879ed8185f81d085364450e2c93132e3 middleElement.scala %}
 
 What's happening above?
 
@@ -35,15 +35,11 @@ What's happening above?
 
 Consider the pair class that we've defined above but where both the elements are of the same type - 
 
-class Pair[T](val first :T, val second :T) {
-	def smaller = if (first.compareTo(second) < 0) first else second // Error
-}
+{% gist kaushik88/879ed8185f81d085364450e2c93132e3 bounds1.scala %}
 
 The function throws an error as you do not know if the type T has a compareTo method. In order to impose this restriction, you need T to be a sub-Type of Comparable[T]. What this means is that, Comparable must be a parent of T.
 
-class Pair[T <: Comparable[T]](val first :T, val second :T) {
-	def smaller = if (first.compareTo(second) < 0) first else second // Error
-}
+{% gist kaushik88/879ed8185f81d085364450e2c93132e3 bound2.scala %}
 
 In a similar way, you can also define supertypes using the '>:' operator.
 
