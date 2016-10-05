@@ -19,7 +19,7 @@ As in Java, classes and traits can have type parameters. Consider the example be
 
 {% gist kaushik88/879ed8185f81d085364450e2c93132e3 pair.scala %}
 
-The above line defines a class that has 2 parameters - first (of type T) and second (of type S). This is very useful as when you want to build a Pair object, now the 2 parameters could be of any type.
+The above code defines a class that has 2 parameters - first (of type T) and second (of type S). This is very useful as when you want to build a Pair object, now the 2 parameters could be of any type.
 
 **Generic Functions**
 
@@ -33,7 +33,7 @@ What's happening above?
 
 **Bounds**
 
-Consider the pair class that we've defined above but where both the elements are of the same type - 
+Consider the pair class in the example above but where both the elements are of the same type - 
 
 {% gist kaushik88/879ed8185f81d085364450e2c93132e3 bounds1.scala %}
 
@@ -41,6 +41,6 @@ The function throws an error as you do not know if the type T has a compareTo me
 
 {% gist kaushik88/879ed8185f81d085364450e2c93132e3 bound2.scala %}
 
-In a similar way, you can also define supertypes using the '>:' operator.
+In a similar way, you can also define supertypes using the '>:' operator. More specifically, you could combine both the subType and superType this way - 
 
-*'T <: Lower >: Upper'
+{% gist kaushik88/879ed8185f81d085364450e2c93132e3 bound3.scala %}
