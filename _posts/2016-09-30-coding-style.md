@@ -25,3 +25,7 @@ In scala, return statements are optional and hence should be avoided when possib
 **3. Avoid using variables or vars**
 
 > Make your variables immutable, unless there's a good reason not to.
+
+**4. Don't use _ **
+
+Although _ is a cool way to write quick code, avoid using them and substitute them with more meaningful variable names.

@@ -14,13 +14,13 @@ In this blog post, you'll read about -
 
 We'll be working with a list of Ints : 
 
-val numbers : List[Int] = List(1,2,3,4,5,6,7,8,9,10)
+{% gist kaushik88/00f3812f4b56751ad979ca1da99af738 basic.scala %}
 
 ### Map
 
 A *map* operation is used to transform the list. Here's the signature of map for the above list - 
 
-def map[B](f: Int => B): scala.collection.TraversableOnce[B]
+{% gist kaushik88/00f3812f4b56751ad979ca1da99af738 map-function-syntax.scala %}
 
 Let us understand the signature - 
 
@@ -28,21 +28,20 @@ Let us understand the signature -
 
 2. It returns a collection of type B (the transformed type).
 
-val squareNumbers : List[Int] = numbers.map{case number :Int => number * number}
-// List(1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+{% gist kaushik88/00f3812f4b56751ad979ca1da99af738 map.scala %}
 
 ### FlatMap
 
 A *flatMap* operation is nothing but a map operation followed by a flatten operation. *Flatten* collapses one level of nested structure.
 
-def flatMap[B](f: Int => scala.collection.GenTraversableOnce[B]): scala.collection.TraversableOnce[B]                                                               
+{% gist kaushik88/00f3812f4b56751ad979ca1da99af738 map.scala %}
+                                                               
 Let us understand this signature - 
 
 1. The function f takes in an Int and returns a Collection of type B.
 2. This level of nested structure is collapsed to return a collection of type B.
 
-val squaresAndCubes :List[Int] = numbers.flatMap{case number :Int => List(number * number, number * number * number)}
-// List(1, 1, 4, 8, 9, 27, 16, 64, 25, 125, 36, 216, 49, 343, 64, 512, 81, 729, 100, 1000)
+{% gist kaushik88/00f3812f4b56751ad979ca1da99af738 flatmap.scala %}
 
 1. Each and every operation in the flatMap returns a List.
 2. The flatten operation collapses this level of list.
@@ -51,14 +50,13 @@ val squaresAndCubes :List[Int] = numbers.flatMap{case number :Int => List(number
 
 A *Filter* operation is used to filter out values from a collection based on some property of the element in the collection. 
 
-   def filter(p: Int => Boolean): List[Int]
+{% gist kaushik88/00f3812f4b56751ad979ca1da99af738 filter-func-def.scala %}
 
 Let us understand this signature - 
 
 1. The function p takes in an Int (each and every element in the collection) and returns a Boolean.
 2. The filter function returns a list of Int, all the elements that returned *true* for that function.
 
-val oddNumbers : List[Int] = numbers.filter{case number :Int => number % 2 == 1}
-// List(1, 3, 5, 7, 9) 
+{% gist kaushik88/00f3812f4b56751ad979ca1da99af738 filter.scala %}
 
 **Final Note** - As can be seen, these operations execute on 1 value at a time and hence really easy to parallelize. As a result, they're commonly used in Scalding and Spark.

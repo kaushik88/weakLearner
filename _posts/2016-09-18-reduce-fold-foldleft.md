@@ -15,13 +15,13 @@ In this blog post, you'll learn about -
 
 In order to explain these 3 functions, let us take a list of integers - 
 
-val oddNumbers :List[Int] = List(1,3,5,7,9,11,13)
+{% gist kaushik88/a2321a13aa6ee54db674db8e51da13d4 basic.scala %}
 
 ### Reduce
 
 For a list of Integers, here's how the signature of reduce is defined - 
 
-def reduce[A1 >: Int](op: (A1, A1) => A1): A1
+{% gist kaushik88/a2321a13aa6ee54db674db8e51da13d4 reduce.scala %}
 
 Let us now understand this signature : 
 
@@ -31,18 +31,7 @@ Let us now understand this signature :
 
 Consider the following example - 
 
-	/**
-	* A simple function which takes in 2 integers and returns the sum of the 2 integers.
-	* @param number1 
-	* @param number2
-	* @return 
-	*/
-
-	def additionReduce(number1: Int, number2: Int) : Int = {
-		number1 + number2
-	}
-
-	oddNumbers.reduce{additionReduce}
+{% gist kaushik88/a2321a13aa6ee54db674db8e51da13d4 reduce-example.scala %}
 
 So, what's happening above - 
 	1. I've defined a function addition which adds 2 numbers.
@@ -52,7 +41,7 @@ So, what's happening above -
 
 For the same example above, here's how the signature of fold is defined - 
 
-def fold[A1 >: Int](z: A1)(op: (A1, A1) => A1): A1
+{% gist kaushik88/a2321a13aa6ee54db674db8e51da13d4 fold.scala %}
 
 Let us now understand this signature : 
 
@@ -60,10 +49,7 @@ Let us now understand this signature :
 2. Unlike reduce, fold takes in 2 parameters - an integer (starting value) and a function (similar to reduce).
 3. The fold function's return type is also A1.
 
-	def additionFold(accumulator: Int, number: Int) : Int = {
-			accumulator + number
-		}
-	oddNumbers.fold(0)(additionFold)
+{% gist kaushik88/a2321a13aa6ee54db674db8e51da13d4 fold-example.scala %}
 
 So, what's happening above - 
 	1. The starting value for fold is now 0.
@@ -73,14 +59,14 @@ So, what's happening above -
 
 ### FoldLeft
 
-override def foldLeft[B](z: B)(op: (B, Int) => B): B
+{% gist kaushik88/a2321a13aa6ee54db674db8e51da13d4 fold-left.scala %}
 
 Let us now understand this signature : 
 
 1. foldLeft takes in 2 parameters - an object of type B (has no relation to Int), and a function. The function takes in 2 parameters, 1 of type B and 1 of type Int.
 2. The function and foldLeft returns an object of type B.
 
-oddNumbers.fold(0)(additionFold)
+{% gist kaushik88/a2321a13aa6ee54db674db8e51da13d4 fold-left-example.scala %}
 
 ### Reduce/Fold vs FoldLeft
 
