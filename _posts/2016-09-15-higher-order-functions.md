@@ -14,25 +14,21 @@ In this blog post, you'll learn
 
 Consider the following example, 
 
-def sumInts(a : Int, b : Int) : Int = {
-	if (a > b) 0 else a + sumInts(a+1, b)
-}
-
-def cube(x : Int) : Int = x * x * x
-
-def sumCubes(a: Int, b : Int) : Int = {
-	if (a > b) 0 else cube(a) + sumCubes(a+1, b)
-}
+{% gist kaushik88/4ac3f98f2882937faf7f777a12447434 higher-order-functions.scala %}
 
 Definitely, there is a pattern between sumInts and sumCubes. In fact, we're used to writing this as a mathematical expression - 
 
-Sum f(x) from a to b.
+$$
+Sum $\sum_{n=1}^{\infty} 2^{-n}
+\begin{align*}
+  $\sum_{x=a}^{b} f(x)
+\end{align*}
+$$
 
 We can achieve the same abstraction in Scala, through the following sytax - 
 
-def sum(f : Int => Int, a : Int, b : Int) : Int = {
-	if (a > b ) else f(a) + sum(a+1, b)
-}
+{% gist kaushik88/4ac3f98f2882937faf7f777a12447434 higher-order-functions2.scala %}
+
 
 Let us understand this function definition - 
 
@@ -40,5 +36,4 @@ Let us understand this function definition -
 2. The first parameter is a function which takes an Int and returns an Int.
 3. This can be called like these - 
 
-sum(cube, 2, 5)	
-sum( x => x * x * x, 2, 5)		// Anonymous Functions
+{% gist kaushik88/4ac3f98f2882937faf7f777a12447434 higher-order-functions-example.scala %}
