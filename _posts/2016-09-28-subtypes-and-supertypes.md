@@ -43,4 +43,4 @@ The function throws an error as you do not know if the type T has a compareTo me
 
 In a similar way, you can also define supertypes using the '>:' operator.
 
-> T <: Lower >: Upper
+*'T <: Lower >: Upper'
