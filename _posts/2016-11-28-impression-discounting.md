@@ -5,7 +5,7 @@ tags:
 - ML
 categories:
 - Research
-thumbnail_path: blog/personal/Bigtable.jpg
+thumbnail_path: blog/personal/Impression-Discounting.jpg
 ---
 
 ### Impression Discounting Introduction
