@@ -5,7 +5,7 @@ tags:
 - ML
 categories:
 - Research
-thumbnail_path: blog/personal/Impression-Discounting.jpg
+thumbnail_path: blog/personal/youtube-homepage.png
 ---
 
 This paper discusses how YouTube uses Deep Learning for their home page recommendations. This paper gives a good understanding on how to build a deep learning product. You can read the paper [here](http://research.google.com/pubs/archive/45530.pdf).
