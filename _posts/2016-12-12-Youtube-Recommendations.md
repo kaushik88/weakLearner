@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Deep Neural Networkds for YouTube Recommendations"
+title: "Deep Neural Networks for YouTube Recommendations"
 tags:
 - ML
 categories:
