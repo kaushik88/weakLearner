@@ -1,5 +1,6 @@
 ---
 layout: post
+mathjax: true
 title: "Coreference Resolution"
 tags:
 - NLP
