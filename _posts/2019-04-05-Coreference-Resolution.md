@@ -28,11 +28,9 @@ OntoNotes 5.0 is the biggest coreference dataset out there - it has around 3000 
 
 - MUC
 - CEAF
-- LEA
 - B-CUBED
 	* For each mention, compute a precision and recall.
 	* Average the individual Ps and Rs
-- BLANC
 
 Often report F1 over these metrics.
 
