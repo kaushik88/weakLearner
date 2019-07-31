@@ -11,7 +11,7 @@ thumbnail_path: blog/personal/classification.jpeg
 
 [Paper Link](https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf)
 
-### Motivation
+### Overview
 
 - Not all parts of a document are equally important to determine the class.
 - Words form sentences, sentences form document.
