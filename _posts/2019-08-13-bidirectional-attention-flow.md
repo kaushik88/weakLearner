@@ -25,7 +25,7 @@ Assume we've the context hidden states $$ c_1,....,c_N \in \mathbb{R}^{2h} $$ an
 
 $$
 \begin{align*}
- 	S_{ij} = {w^T}_sim [c_i; q_j; c_i \circ q_j] \in R
+ 	S_{ij} = {w^T}_sim [c_i; q_j; c_i \circ q_j] \in \mathbb{R}
 \end{align*}
 $$
 
