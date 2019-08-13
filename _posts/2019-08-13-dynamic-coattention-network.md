@@ -6,7 +6,7 @@ tags:
 - MRC
 categories:
 - Research
-thumbnail_path: blog/personal/machine-translation-robot.png
+thumbnail_path: blog/personal/qna.png
 ---
 
 [Paper Link](https://arxiv.org/pdf/1611.01604.pdf)
