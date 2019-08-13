@@ -47,13 +47,13 @@ $$
 
 **Question-To-Context Attention (Q2C)**
 
-Similarly, we take a column-wise softmax of **S** to obtain the attention distributions $$ \beta $$ which is used to take a weighted sum of the context hidden states $$ c_i $$ yielding C2Q attention output **c\textsinglequote**.
+Similarly, we take a column-wise softmax of **S** to obtain the attention distributions $$ \beta $$ which is used to take a weighted sum of the context hidden states $$ c_i $$ yielding C2Q attention output $$ c\textprime $$.
 
 **Bi-directional Attention Flow**
 
 $$
 \begin{align*}
- 	b_i = [c_i; \bm{a}_i; c_i \circ **a**_i; c_i \circ c\textsinglequote_i ]
+ 	b_i = [c_i; \bm{a}_i; c_i \circ **a**_i; c_i \circ c\textprime_{i} ]
 \end{align*}
 $$
 
