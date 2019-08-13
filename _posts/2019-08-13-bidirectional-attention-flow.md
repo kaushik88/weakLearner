@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 title: "Bi-directional Attention Flow for Machine Comprehension"
 tags:
-- Seq2Seq
+- MRC
 categories:
 - Research
 thumbnail_path: blog/personal/machine-translation-robot.png

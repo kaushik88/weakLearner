@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 title: "Dynamic Co-attention Network"
 tags:
-- Seq2Seq
+- MRC
 categories:
 - Research
 thumbnail_path: blog/personal/machine-translation-robot.png
