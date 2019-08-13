@@ -21,7 +21,7 @@ thumbnail_path: blog/personal/machine-translation-robot.png
 
 - The core idea behind the paper is on the Bi-directional attention layer between the context (decoder) and the question (encoder). 
 
-Assume we've the context hidden states $$ c_1,....,c_N \in \mathbb{R}^{2h} $$ and question hidden states $$ q_1,....,q_M \in \mathbb{R}^{2h} $$. We compute the similarity matrix **S** $$ \in \mathbb{R}^{NxM} which contains a similarity score S<sub>ij</sub> for each pair of (c<sub>i</sub>, q<sub>j</sub>) where 
+Assume we've the context hidden states $$ c_1,....,c_N \in \mathbb{R}^{2h} $$ and question hidden states $$ q_1,....,q_M \in \mathbb{R}^{2h} $$. We compute the similarity matrix **S** $$ \in \mathbb{R}^{NxM} $$ which contains a similarity score S<sub>ij</sub> for each pair of (c<sub>i</sub>, q<sub>j</sub>) where 
 
 $$
 \begin{align*}
@@ -41,7 +41,7 @@ $$
 
 $$
 \begin{align*}
- 	**a**_i = \sigma_{j=1}^{M} \alpha_j^iq_j \in \mathbb{R}^2h
+ 	\bm{a}_i = \sigma_{j=1}^{M} \alpha_j^iq_j \in \mathbb{R}^2h
 \end{align*}
 $$
 
@@ -53,7 +53,7 @@ Similarly, we take a column-wise softmax of **S** to obtain the attention distri
 
 $$
 \begin{align*}
- 	b_i = [c_i; **a**_i; c_i \circ **a**_i; c_i \circ c\textsinglequote_i ]
+ 	b_i = [c_i; \bm{a}_i; c_i \circ **a**_i; c_i \circ c\textsinglequote_i ]
 \end{align*}
 $$
 
