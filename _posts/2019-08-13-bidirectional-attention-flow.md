@@ -41,19 +41,19 @@ $$
 
 $$
 \begin{align*}
- 	\bm{a}_i = \sigma_{j=1}^{M} \alpha_j^iq_j \in \mathbb{R}^2h
+ 	a_i = \sigma_{j=1}^{M} \alpha_j^iq_j \in \mathbb{R}^2h
 \end{align*}
 $$
 
 **Question-To-Context Attention (Q2C)**
 
-Similarly, we take a column-wise softmax of **S** to obtain the attention distributions $$ \beta $$ which is used to take a weighted sum of the context hidden states $$ c_i $$ yielding C2Q attention output $$ c\textprime $$.
+Similarly, we take a column-wise softmax of **S** to obtain the attention distributions $$ \beta $$ which is used to take a weighted sum of the context hidden states $$ c_i $$ yielding C2Q attention output $$ c' $$.
 
 **Bi-directional Attention Flow**
 
 $$
 \begin{align*}
- 	b_i = [c_i; \bm{a}_i; c_i \circ **a**_i; c_i \circ c\textprime_{i} ]
+ 	b_i = [c_i; a_i; c_i \circ a_i; c_i \circ c'_{i} ]
 \end{align*}
 $$
 
