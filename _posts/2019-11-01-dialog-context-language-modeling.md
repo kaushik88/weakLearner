@@ -28,7 +28,7 @@ However all these methods focused on applying context by encoding preceding text
 
 **Context Dependent RNNLM**
 
-Let D = (U_1, U_2, ... U_K) be a dialog with K turns and involve 2 speakers. In this case, turn is just the utterance of a single speaker and could involve multiple messages. The *k*th turn U_k = (w_1, w_2, ..., w_{T_K}) is represented as a sequence of T_k words.
+Let D = $$ (U_1, U_2, ... U_K) $$ be a dialog with K turns and involve 2 speakers. In this case, turn is just the utterance of a single speaker and could involve multiple messages. The *k*th turn $$ U_k = (w_1, w_2, ..., w_{T_K}) $$ is represented as a sequence of T_k words.
 
 $$
 \begin{align*}
