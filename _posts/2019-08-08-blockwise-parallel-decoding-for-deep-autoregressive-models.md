@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 title: "Blockwise Parallel Decoding for Deep Autoregressive Models"
 tags:
-- Machine Translation
+- NLG
 categories:
 - Research
 thumbnail_path: blog/personal/machine-translation-robot.png

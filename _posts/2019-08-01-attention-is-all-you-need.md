@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 title: "Attention is All You Need"
 tags:
-- Machine Translation
+- NLG
 categories:
 - Research
 thumbnail_path: blog/personal/machine-translation-robot.png
