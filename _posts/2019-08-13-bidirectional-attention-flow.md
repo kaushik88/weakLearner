@@ -29,7 +29,7 @@ $$
 \end{align*}
 $$
 
-where $$ w_{sim} $$ is a weight matrix of shape $$ \mathbb{R}^{6h} $$ and $$ S \in \matchbb{R}^{NxM} $$. 
+where $$ w_{sim} $$ is a weight matrix of shape $$ \mathbb{R}^{6h} $$ and $$ S \in \mathbb{R}^{NxM} $$. 
 
 **Context-to-Question Attention (C2Q)**
 
