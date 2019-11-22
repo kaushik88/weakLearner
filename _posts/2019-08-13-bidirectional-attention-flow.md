@@ -57,7 +57,7 @@ Similarly, we take a column-wise softmax of **S** to obtain the attention distri
 
 $$
 \begin{align*}
- 	b_i = [c_i; a_i; c_i \circ a_i; c_i \circ c'_{i} ]
+ 	b_i = [c_i; a_i; c_i \circ a_i; c_i \circ c' ]
 \end{align*}
 $$
 
