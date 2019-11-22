@@ -19,6 +19,8 @@ thumbnail_path: blog/personal/ner.jpeg
 
 {% include figure.html path="blog/personal/ner_lstm_cnn.png" alt="NER using LSTM and CNN" %}
 
+The architecture is very straight-forward (from above diagram). Append word embeddings, word feature and character embeddings from CNN. Pass this through LSTM and have a softmax for every token.
+
 - For each lexicon category, we match every n-gram (up to the length of the longest lexicon entry) against entries in the lexicon.
 - A match is successful when the n-gram matches the prefix or suffix of an entry and is at least half the length of
 the entry. (Discard matches with <= 2 words).
