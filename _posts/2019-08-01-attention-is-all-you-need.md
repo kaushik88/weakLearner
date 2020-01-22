@@ -20,9 +20,9 @@ thumbnail_path: blog/personal/machine-translation-robot.png
 
 ### Architecture
 
-- Standard Encoder Decoder architecture.
-- Encoder converts (x<sub>1</sub>,... x<sub>n</sub>) to a continuous representation z.
-- Given z, decoder then generates an output sequence (y<sub>1</sub>,... y<sub>m</sub>).
+- Standard Encoder Decoder architecture trained on Machine Translation (WMT English-German).
+- Encoder converts (x<sub>1</sub>,... x<sub>n</sub>) to a continuous representation z (z<sub>1</sub>,... z<sub>n</sub>).
+- Given z, decoder then generates an output sequence (y<sub>1</sub>,... y<sub>m</sub>) one token at a time.
 - At each step, the model is auto-regressive, consuming the previously generated symbols as additional input when generating the next.
 
 {% include figure.html path="blog/personal/attentionIsAllYouNeed.png" alt="Attention Is All You Need" %}
@@ -96,3 +96,7 @@ $$
 | MoE | 26.03 | 40.56 |
 | Transformer Base| 27.3 | 38.1 |
 | Transformer| 28.4 | 41.0 |
+
+### References
+
+1. http://nlp.seas.harvard.edu/2018/04/03/attention.html
