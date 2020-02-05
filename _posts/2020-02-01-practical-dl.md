@@ -45,4 +45,23 @@ high bias - underfitting (high train and dev error) and high variance - overfitt
 
 **Optimization Algorithms**
 
-- 
+- Exponentially weighted averages (light-weight) as compared to rolling 50-day averages.
+- Bias correction (divite by Beta^t)
+- Momentum
+	- Calculate exponentially weighted average of gradients and use that to update weights.
+	- W = W - alpha * (v_dw) where v_dw = beta * v_dw + (1-beta) * dW where dW is gradient.
+- RMSProp
+	- The main intuition is that we want the learning to slow in vertical direction and speed up in the horizontal direction.
+	- W = W - alpha * dW / (sqrt(s_dW)) where v_dw = beta * s_dw + (1-beta) * dW^2
+- Adam Optimizer
+	- At a very high level, this combines Momentum and RMSProp.
+	- Adaptive Moment Estimator.
+- Learning Rate Decay
+	- decrease alpha as num epochs increase.
+
+
+**Batch Normalization**
+- Allows larger range of hyperparams to work and also supports deeper network.
+- Usually applied to z (before activation function).
+- Calculate mean and variance but learn 2 params (beta and gamma) to reduce it to whatever mean and variance we want (rather than 0 mean and 1 variance).
+- Use exponentially weighted averages to calculate mu and sigma and use the final result for test time.
