@@ -1,4 +1,4 @@
-ntent Classification and Slot Tagger
+Intent Classification and Slot Tagger
    - CNN works better when the task is keyword recognition (like sentiment classification)
    - https://arxiv.org/pdf/1702.01923.pdf
    - ATIS Dataset - https://github.com/yvchen/JointSLU

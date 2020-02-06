@@ -1,4 +1,3 @@
----
 layout: post
 mathjax: true
 title: "A Survey on Deep Learning for Named Entity Recognition"
