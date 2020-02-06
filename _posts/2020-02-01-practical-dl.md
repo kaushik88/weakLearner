@@ -9,6 +9,8 @@ categories:
 thumbnail_path: blog/personal/deepl.png
 ---
 
+Notes from Coursera course by Andrew Ng.
+
 **Train/Dev/Test**
 
 - Train on train test.
