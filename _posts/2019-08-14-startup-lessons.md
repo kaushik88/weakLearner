@@ -55,3 +55,30 @@ This is based on @pmarca’s blog. Ideally, you’d want to hire for drive, curi
 Drive - Not GPA. Ask for struggles where they had to find the solution and solve.
 Curiosity - Test if people are curious about their field (stay current)
 Ethics - Pick a topic you know intimately and ask the candidate increasingly esoteric questions until they don’t know the answer. Check if the candidate BSs.
+
+### Technical Lessons
+
+**Constant refactor**
+
+Don’t avoid code refactors - this becomes much harder for you to maintain systems in the long run and lead to technical debt. I’ve found somewhere around 5% to be a good number.
+
+**Don’t over-engineer**
+
+The easiest way to achieve this is to believe that you’ll spend x% of your time in the near future refactoring the code (above point). You’ll have more knowledge of how the system is used and this will help you iterate on the code.
+
+**Incremental Progress**
+
+Make incremental progress - don’t go in a rabbit hole and come out after 3 months completing the project. In my experience, tracking and making progress every 2 weeks has worked.
+
+**Build systems that can get better over time**
+
+This is more applicable for ML/NLP systems. As much as possible, avoid black boxes where you can’t make improvements to the system. Also avoid solely depending on hacks (whitelists or blacklists) as they don’t help you get better over time.
+
+**Adopt Coding style, measure code quality and Test Coverage**
+
+I’m sure there’s some correlation between refactor time and code quality - it doesn’t take a LOT more time to write clean code but it takes a LOT of time to refactor ugly code.
+
+**Measure**
+
+Measure whatever you want to improve - if you can’t measure it you can’t improve. If you want to improve your clustering algorithm, find ways to measure the quality of the clusters. If you want to improve the stability of the systems, come up with good metrics to measure that.
+
