@@ -47,4 +47,4 @@ Trainer.
 
 ### Results
 
-{% include figure.html path="blog/personal/spiece_results.png" alt="Results of Adam Optimizer" %}
+{% include figure.html path="blog/personal/spiece_results.png" alt="SentencePiece Results" %}
