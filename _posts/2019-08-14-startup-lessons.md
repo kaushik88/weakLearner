@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: "Lessons from My Startup"
+title: "Lessons from My First Startup"
 tags:
 - Startup
 categories:
@@ -26,7 +26,7 @@ I heard this from Bipul Sinha (CEO of Rubrik). Speed is one of the biggest stren
 
 **Feedback**
 
-Try to ask questions instead of providing feedback - especially questions that makes the other person introspec. Avoid direct feedback (especially if it is immediately after an outcome or a result) - it comes from the position of I know / I think I am right. Also, in some cases frame the question as a group feedback - what could we have done better (if you’re doing that start the conversation about one of the things you could have done better).
+Try to ask questions instead of providing statement based feedback - especially questions that makes the other person introspect. Avoid direct feedback (especially if it is immediately after an outcome or a result) - it comes from the position of I know / I think I am right. Also, in some cases frame the question as a group feedback - what could we have done better (if you’re doing that start the conversation about one of the things you could have done better).
 
 **Conflicts**
 
