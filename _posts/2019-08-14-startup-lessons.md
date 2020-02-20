@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: "An Index of Lessons from Startup"
+title: "Lessons from My Startup"
 tags:
 - Startup
 categories:
@@ -20,9 +20,17 @@ It’s chaotic all around - product direction changes frequently, tasks and proj
 
 Rejections are also common in a startup (even for an employee) - your ideas could get rejected, the client you’re working with might not like the product you’re building, the deal you’re working on won’t go through, the potential employee you’re trying to hire might say no. This is common and don’t let this bring you down.
 
-**2 meetings max per decision**
+**Indecisive**
 
-I heard this from Bipul Sinha (CEO of Rubrik). Speed is one of the biggest strengths of a startup and you don’t want to spend too much time in deciding the ideal/perfect next step. Keep failing but fail fast and improve. The goal is not to get all your decisions right - as long as the number of right decisions > number of wrong decisions, you’re doing great!
+I heard this from Bipul Sinha (CEO of Rubrik). Speed is one of the biggest strengths of a startup and you don’t want to spend too much time deciding the ideal/perfect next step. Keep failing but fail fast and improve. The goal is not to get all your decisions right - as long as the number of right decisions > number of wrong decisions, you’re doing great!
+
+**Feedback**
+
+Try to ask questions instead of providing feedback - especially questions that makes the other person introspec. Avoid direct feedback (especially if it is immediately after an outcome or a result) - it comes from the position of I know / I think I am right. Also, in some cases frame the question as a group feedback - what could we have done better (if you’re doing that start the conversation about one of the things you could have done better).
+
+**Conflicts**
+
+The first step to navigate a conflict is to find out if you’re aligned on the ‘why’. Once you’re aligned on the why, try to understand their point on the ‘how’, ‘when’, ‘what’ etc and discuss the pros and cons.
 
 **Single Point of contact**
 
