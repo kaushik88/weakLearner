@@ -99,6 +99,29 @@ Chapter 3 - Caveat Emptor to Caveat Venditor
 		No haggling necessary
 		Computer facing both buyer and seller
 
+Chapter 4 - Attunement
+	Always Be Closing (ABC)
+	No information edge these days.
+	Power, empathy, chameleons.
+	P1 - increase your power by reducing it.
+		Inverse relationship b/w power and perspective taking.
+		Assume you're not the one with the power.
+		Lower status - keener perspective status.
+		humility (chair size).
+	P2 - Use your head as much as your heart.
+		Take others perspective.
+		Co-operations vs competition.
+		It is better to get inside their heads than to get in your heart.
+		Curious and ask questions.
+	P3 - Mimic strategically
+		Subtle mimic else completely backfires.
+		Beginning we gain trust with people who are like us.
+		Get in Sync with them.
+		Watch -> Wait -> Wane
+	Don't lie!!
+	How was your week?
+	here are you from? better than What do you do?
+	Visual Representation of who speaks to whom.
 
-
+Chapter 5 - Buoyancy
 
