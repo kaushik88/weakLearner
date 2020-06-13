@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 title: "Learning End-To-End Goal-Oriented Dialog"
 tags:
-- Classification
+- Dialog
 categories:
 - Applied
 thumbnail_path: blog/personal/chatbot.png

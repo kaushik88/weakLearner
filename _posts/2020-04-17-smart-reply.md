@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 title: "Efficient Natural Language Response Suggestion for Smart Reply"
 tags:
-- Classification
+- Dialog
 categories:
 - Applied
 thumbnail_path: blog/personal/chatbot.png
