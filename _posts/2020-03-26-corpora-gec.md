@@ -4,6 +4,7 @@ mathjax: true
 title: "Corpora Generation for Grammatical Error Correction"
 tags:
 - Grammar
+- NLG
 categories:
 - Applied
 thumbnail_path: blog/personal/machine-translation-robot.png
