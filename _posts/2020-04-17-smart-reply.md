@@ -4,6 +4,7 @@ mathjax: true
 title: "Efficient Natural Language Response Suggestion for Smart Reply"
 tags:
 - Dialog
+- NLG
 categories:
 - Applied
 thumbnail_path: blog/personal/chatbot.png
