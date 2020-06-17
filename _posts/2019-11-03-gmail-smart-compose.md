@@ -4,6 +4,7 @@ mathjax: true
 title: "Gmail Smart Compose: Real-Time Assisted Writing"
 tags:
 - Dialog
+- NLG
 categories:
 - Research
 thumbnail_path: blog/personal/chatbot.png
