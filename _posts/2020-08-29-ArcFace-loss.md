@@ -19,6 +19,8 @@ thumbnail_path: blog/personal/embedding.png
 
 ### Architecture
 
+{% include figure.html path="blog/personal/arcface_archi.png" alt="Architecture for ArcFace Loss" %}
+
 **Softmax Loss**
 
 {% include figure.html path="blog/personal/softmax_loss.png" alt="Softmax Loss" %}
